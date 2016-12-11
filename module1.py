@@ -63,7 +63,7 @@ def main():
 
     parse(get_html('https://www.fabrikant.ru/trades/procedure/search/?type=1&query={}&procedure_stage=1&price_from=&price_to=&currency=0&date_type=date_publication&date_from=&date_to=&ensure=all&section_type%5B%5D=ds300&count_on_page=10&order_by=default&order_direction=1'.format(urllib.parse.quote(search_text))))
 #11
-#11
+
 
 if __name__ == "__main__":
     main()
